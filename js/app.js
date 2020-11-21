@@ -13,7 +13,7 @@ const handleNewItemFormSubmit = function (event) {
     const filmList = document.querySelector('#film-list');
     filmList.appendChild(filmListItem);
 
-    event.target.rest();
+    event.target.reset();
 }
 
 const createFilmListItem = function (form) {
